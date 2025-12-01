@@ -72,24 +72,22 @@ print(f\"Accuracy: {results['summary']['accuracy_percentage']}%\")
 ## 📁 Project Structure
 
 ```
-ocr-shipping-label/
-├── README.md                 # This file
-├── requirements.txt          # Python dependencies
-├── app.py                    # Streamlit web application
-├── src/
-│   ├── __init__.py
-│   ├── preprocessing.py      # Image preprocessing module
-│   ├── ocr_engine.py         # OCR extraction engine
-│   ├── text_extraction.py    # Target pattern extraction
-│   └── utils.py              # Utility functions
-├── tests/
-│   ├── test_preprocessing.py
-│   ├── test_ocr.py
-│   └── test_extraction.py
-├── notebooks/
-│   └── experimentation.ipynb # Development notebook
-└── results/
-    └── accuracy_report.json  # Processing results
+├── README.md                 # Comprehensive documentation                  
+├── requirements.txt          # All dependencies
+├── src/                      # Source code
+│   ├── ocr_engine.py        # Core OCR logic
+│   ├── preprocessing.py    # Image preprocessing
+│   ├── text_extraction.py  # Target text extraction 
+│   └── utils.py           # Utility functions
+├── app.py                  # Streamlit application  
+├── tests/                  # Test cases  
+├── notebooks/              # Jupyter notebooks (if used for experimentation) 
+└── results/                # Sample outputs and jason
+
+
+
+  
+
 ```
 
 ## 🔧 Technical Approach
@@ -223,7 +221,7 @@ pip install opencv-python
 
 ## 💡 Optimization Tips
 
-1. **Image Quality**: Use high-resolution images (300+ DPI) for best results
+1. **Image Quality**:  Use high-resolution images (300+ DPI). Images must be captured straight-on with no angle or distortion for optimal OCR performance.
 2. **Preprocessing**: Experiment with different preprocessing variants for challenging images
 3. **Batch Size**: Process 10-20 images at a time for optimal memory usage
 4. **GPU Acceleration**: For large-scale processing, consider GPU-enabled Tesseract builds
@@ -248,7 +246,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@ravikanani](https://github.com/RKH2223/OCR-SHIPPING-LABEL.git)
 - Email: your.email@example.com
 
 ## 🙏 Acknowledgments
@@ -260,9 +258,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Contact
 
 For questions or support:
-- Email: your.email@example.com
-- WhatsApp: +91 63526 17754
-- GitHub Issues: [Create an issue](https://github.com/yourusername/repo/issues)
+- Email: ravikanani2003@gmail.com
+- WhatsApp: +91 9537308502
 
 ---
 
