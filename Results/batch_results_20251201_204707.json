@@ -1,0 +1,14 @@
+[
+  {
+    "filename": "reverseWaybill-163168391573114432_1.jpg",
+    "target_text": "165168391573114432_1_iroFlyer",
+    "confidence": 80.0,
+    "status": "SUCCESS"
+  },
+  {
+    "filename": "reverseWaybill-163233702292313922_1.jpg",
+    "target_text": "163233702292313922_1_",
+    "confidence": 70.0,
+    "status": "SUCCESS"
+  }
+]
