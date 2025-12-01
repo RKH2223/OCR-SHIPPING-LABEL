@@ -247,7 +247,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Your Name**
 - GitHub: [@ravikanani](https://github.com/RKH2223/OCR-SHIPPING-LABEL.git)
-- Email: your.email@example.com
+- Email: ravikanani2003@gmail.com
 
 ## 🙏 Acknowledgments
 
