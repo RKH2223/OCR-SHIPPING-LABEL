@@ -1,0 +1,9 @@
+pytesseract
+opencv-python
+Pillow
+numpy
+streamlit
+pandas
+pytest
+python-dateutil
+tqdm
